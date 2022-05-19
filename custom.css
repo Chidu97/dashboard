@@ -1,0 +1,262 @@
+#page{
+    height: 100vh;
+}
+
+/* For the media screen */
+@media screen and (max-width:969px){
+    #page{
+        min-height: 100vh;
+    }
+}
+/* Aside styles */
+aside{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+aside.padding{
+    padding: 10px 30px;
+
+}
+aside #logo{
+    font-weight: bold;
+    color: #327CD6;
+    font-size: 2rem;
+
+}aside ul{
+    text-align: left;
+}
+
+aside ul li{
+    padding: 5px 0px;
+}
+
+aside .menu-list a.is-active{
+    background-color: transparent;
+    color: #327CD6;
+
+}
+.blue-btn{
+    background-image: linear-gradient(to bottom, dodgerblue, #3f72bf);
+    color: white;
+    width: 100%;
+}
+.border{
+    border: 1px solid #ddd;
+}
+.rounded{
+    border-radius: 10px;
+}
+
+/* Main styles */
+main{
+    background-color: #F6F6F6;
+    min-height: 120vh;
+}
+
+header{
+    background-color: white;
+    min-width: 90vw;
+}
+
+.input{
+    border: none;
+    outline: none;
+    margin-left: -12px;
+}
+nav{
+    background-color: white;
+    display: flex;
+    cursor: pointer;
+}
+.navbar{
+    background-color: white;
+    display: flex;
+    padding-left: 300px;
+}
+.navbar p{
+    padding: 12px 10px 0px 10px;
+    font-weight: 300;
+    color: #8d8c8c;
+}
+.navbar #down{
+    color: dodgerblue;
+}
+.navbar span{
+    margin-left: 20px;
+    padding: 5px 10px 0px 20px;
+    color: #8d8c8c;
+}
+.navbar span i{
+    margin-left: 20px;
+    padding: 10px 10px 0px 20px;
+}
+.navbar figure{
+    padding: 10px 0px 0px;
+}
+main h1{
+    padding: 35px 55px 30px;
+    font-weight: bold;
+    color: #A0A0A0;
+}
+h1 i{
+    color: white;
+    font-size: 20px;
+    background-color:#327CD6 ;
+    padding: 7px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 28px;
+}
+
+/* class "stock-total" style */
+.stock-total{
+    background: linear-gradient(to right, #C493F8, rgb(173, 101, 245));
+    padding-left: 20px;
+    min-height: 30vh;
+    min-width: 21vw;
+    border-radius: 20px;
+    color: white;
+    padding-top: 60px;
+}
+
+.stock-total h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stock-total p{
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.stock-total h4{
+    font-weight: bold;
+}
+
+/* class "total-profit" styles */
+.total-profit{
+    background: linear-gradient(to right, #6AA3E2, #676AE9);
+    padding-left: 20px;
+    min-height: 30vh;
+    min-width: 21vw;
+    border-radius: 20px;
+    color: white;
+    padding-top: 60px;
+}
+
+.total-profit h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total-profit p{
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.total-profit h4{
+    font-weight: bold;
+}
+
+/* class "unique-visitors" styles */
+.unique-visitors{
+    background: linear-gradient(to right, #FEB683, #FF8A90);
+    padding-left: 20px;
+    min-height: 30vh;
+    min-width: 21vw;
+    border-radius: 20px;
+    color: white;
+    padding-top: 60px;
+}
+
+.unique-visitors h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.unique-visitors p{
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.unique-visitors h4{
+    font-weight: bold;
+}
+
+/* Table styles */
+table{
+    border-collapse: collapse;
+    width: 90%;
+    background-color: #FFFFFF;
+    padding-top: 40px;
+    border-radius: 10px;
+    margin-left: 50px;
+    box-shadow: 2px 1px 2px 2px #e0e0e0;
+}
+table caption{
+    text-align: left;
+}
+th{
+    padding-bottom: 20px;
+    text-align: left;
+}
+#title{
+    color: #706f6f;
+}
+td{
+    padding: 20px;
+    color: rgb(155, 155, 155) ;
+}
+tr th{
+    padding: 20px;
+    text-align: left;
+    color: #706f6f;
+}
+/* td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+} */
+#pending{
+    background: linear-gradient(to bottom, #C493F8, rgb(173, 101, 245));
+    color: white;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 1px;
+}
+
+#approved{
+    background: linear-gradient(to bottom, #6AA3E2, #676AE9);
+    color: white;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    box-shadow: black;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 1px;
+
+}
+#reject{
+    background: linear-gradient(to bottom, #FEB683, #FF8A90);
+    color: white;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    box-shadow: black;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 1px;
+
+}
+
